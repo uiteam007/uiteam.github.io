@@ -1,1 +1,92 @@
-inde
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="advance.css" />
+    <script type="text/javascript" src="advance.js"></script>
+
+    <title>jQuery</title>
+</head>
+
+
+<body>
+    <!-- This is j Query basic assignment -->
+
+    <section class="demo">
+        <button class="next">Next</button>
+        <button class="prev">Prev</button>
+        <div class="container">
+            <div style="display: inline-block;">
+                <img src="http://placeimg.com/400/200/people" />
+            </div>
+            <div>
+                <img src="http://placeimg.com/400/200/any" />
+            </div>
+            <div>
+                <img src="http://placeimg.com/400/200/nature" />
+            </div>
+            <div>
+                <img src="http://placeimg.com/400/200/architecture" />
+            </div>
+            <div>
+                <img src="http://placeimg.com/400/200/animals" />
+            </div>
+            <div>
+                <img src="http://placeimg.com/400/200/people" />
+            </div>
+            <div>
+                <img src="http://placeimg.com/400/200/tech" />
+            </div>
+        </div>
+    </section>
+
+
+    <!-- This is Password Ques-->
+
+    <!-- -->
+    <div id="mainbox">
+        <div id="formbox">
+            <h1 id="header">Password Verification</h1>
+
+            <!-- Form Starts here -->
+
+            <form>
+                <ul>
+                    <li>
+                        <label class="FirstError" for="password">Password:</label>
+                        <span>
+                <input type="password" name="password" class="FirstError" id="Passwordinput" />
+              </span>
+                    </li>
+                    <li id="InputErr" class="Hidden1">Press enter at least 9 character</li>
+
+                    <li>
+                        <label for="Confirmation">Confirm Password:</label>
+                        <span>
+                <input type="password" name="Confirmation" id="ConfirmPassword" />
+              </span>
+                    </li>
+                    <li>
+                        <button type="submit" id="pressTosubmit">Submit</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <!-- This is Hidden Error Div -->
+        <div id="pswd_info" class="Hidden2">
+            <h4>Password Criteria:</h4>
+            <li class="FirstError">Must be at least <strong>9 characters</strong>
+            </li>
+            <li id="SecondError">Must contain a uppercase letter,A
+                <br> number and cannot begin or end
+                <br>with a space
+            </li>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>
